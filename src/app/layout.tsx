@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Buttons from "./(components)/Buttons";
@@ -26,6 +27,13 @@ export default function RootLayout({
           <Buttons />
 
           {children}
+          <Image
+            src={"/images/junimos.gif"}
+            height={200}
+            width={200}
+            alt="junimos gif dance"
+            priority={true}
+          />
         </main>
       </body>
     </html>

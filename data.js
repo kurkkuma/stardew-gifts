@@ -2,6 +2,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/haley-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A5%D1%8D%D0%B9%D0%BB%D0%B8",
     name: "Хэйли",
     birthday: "Весна 14",
     gifts: [
@@ -12,6 +13,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/abigail-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%90%D0%B1%D0%B8%D0%B3%D0%B5%D0%B9%D0%BB",
     name: "Абигейл",
     birthday: "Осень 13",
     gifts: ["/images/characters/gifts/amethyst.png"],
@@ -19,6 +21,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/penny-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9F%D0%B5%D0%BD%D0%BD%D0%B8",
     name: "Пенни",
     birthday: "Осень 2",
     gifts: [
@@ -29,6 +32,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/emily-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%AD%D0%BC%D0%B8%D0%BB%D0%B8",
     name: "Эмили",
     birthday: "Весна 27",
     gifts: [
@@ -39,6 +43,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/leah-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9B%D0%B5%D1%8F",
     name: "Лея",
     birthday: "Зима 23",
     gifts: [
@@ -50,6 +55,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/maru-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9C%D0%B0%D1%80%D1%83",
     name: "Мару",
     birthday: "Лето 10",
     gifts: [
@@ -60,6 +66,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/jodi-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%94%D0%B6%D0%BE%D0%B4%D0%B8",
     name: "Джоди",
     birthday: "Осень 11",
     gifts: ["/images/characters/gifts/diamond.png"],
@@ -67,6 +74,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/caroline-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9A%D1%8D%D1%80%D0%BE%D0%BB%D0%B0%D0%B9%D0%BD",
     name: "Кэролайн",
     birthday: "Зима 7",
     gifts: ["/images/characters/gifts/daffodil.png"],
@@ -74,6 +82,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/marnie-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9C%D0%B0%D1%80%D0%BD%D0%B8",
     name: "Марни",
     birthday: "Осень 18",
     gifts: [
@@ -84,6 +93,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/pam-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9F%D1%8D%D0%BC",
     name: "Пэм",
     birthday: "Весна 18",
     gifts: [
@@ -94,6 +104,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/robin-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD",
     name: "Робин",
     birthday: "Осень 21",
     gifts: ["/images/characters/gifts/cheese.png"],
@@ -101,6 +112,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/evelyn-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%AD%D0%B2%D0%B5%D0%BB%D0%B8%D0%BD",
     name: "Эвелин",
     birthday: "Зима 20",
     gifts: ["/images/characters/gifts/diamond.png"],
@@ -108,6 +120,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/jas-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%94%D0%B6%D0%B0%D1%81",
     name: "Джас",
     birthday: "Лето 4",
     gifts: ["/images/characters/gifts/cake.png"],
@@ -115,6 +128,7 @@ const dataGirls = [
   {
     id: generateUniqueId(),
     img: "/images/characters/sandy-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A1%D1%8D%D0%BD%D0%B4%D0%B8",
     name: "Сэнди",
     birthday: "Осень 15",
     gifts: ["/images/characters/gifts/daffodil.png"],
@@ -125,6 +139,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/alex-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%90%D0%BB%D0%B5%D0%BA%D1%81",
     name: "Алекс",
     birthday: "Лето 13",
     gifts: ["/images/characters/gifts/egg.png"],
@@ -132,6 +147,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/sebastian-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A1%D0%B5%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%B0%D0%BD",
     name: "Себастиан",
     birthday: "Зима 10",
     gifts: [
@@ -142,6 +158,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/sam-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A1%D1%8D%D0%BC",
     name: "Сэм",
     birthday: "Лето 17",
     gifts: ["/images/characters/gifts/cactus.png"],
@@ -149,6 +166,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/harvey-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A5%D0%B0%D1%80%D0%B2%D0%B8",
     name: "Харви",
     birthday: "Зима 14",
     gifts: ["/images/characters/gifts/coffee.png"],
@@ -156,6 +174,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/shane-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%A8%D0%B5%D0%B9%D0%BD",
     name: "Шейн",
     birthday: "Весна 20",
     gifts: ["/images/characters/gifts/beer.png"],
@@ -163,6 +182,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/elliott-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BE%D1%82",
     name: "Эллиот",
     birthday: "Осень 5",
     gifts: ["/images/characters/gifts/feather.png"],
@@ -170,6 +190,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/willy-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%92%D0%B8%D0%BB%D0%BB%D0%B8",
     name: "Вилли",
     birthday: "Лето 24",
     gifts: ["/images/characters/gifts/diamond.png"],
@@ -177,6 +198,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/wizard-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%92%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA",
     name: "Волшебник",
     birthday: "Зима 17",
     gifts: ["/images/characters/gifts/essence.png"],
@@ -184,6 +206,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/gus-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%93%D0%B0%D1%81",
     name: "Гас",
     birthday: "Лето 8",
     gifts: ["/images/characters/gifts/diamond.png"],
@@ -191,6 +214,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/demetrius-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%94%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%83%D1%81",
     name: "Деметриус",
     birthday: "Лето 19",
     gifts: ["/images/characters/gifts/strawberry.png"],
@@ -198,6 +222,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/george-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6",
     name: "Джордж",
     birthday: "Осень 24",
     gifts: [
@@ -208,6 +233,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/kent-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9A%D0%B5%D0%BD%D1%82",
     name: "Кент",
     birthday: "Весна 4",
     gifts: ["/images/characters/gifts/hazelnuts.png"],
@@ -215,6 +241,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/clint-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9A%D0%BB%D0%B8%D0%BD%D1%82",
     name: "Клинт",
     birthday: "Зима 26",
     gifts: [
@@ -225,6 +252,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/linus-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9B%D0%B8%D0%BD%D1%83%D1%81",
     name: "Линус",
     birthday: "Зима 3",
     gifts: [
@@ -235,6 +263,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/lewis-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9B%D1%8C%D1%8E%D0%B8%D1%81",
     name: "Льюис",
     birthday: "Весна 7",
     gifts: [
@@ -246,6 +275,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/pierre-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9F%D1%8C%D0%B5%D1%80",
     name: "Пьер",
     birthday: "Весна 26",
     gifts: ["/images/characters/gifts/daffodil.png"],
@@ -253,6 +283,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/vincent-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%92%D0%B8%D0%BD%D1%81%D0%B5%D0%BD%D1%82",
     name: "Винсент",
     birthday: "Весна 10",
     gifts: ["/images/characters/gifts/cake.png"],
@@ -260,6 +291,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/leo-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9B%D0%B5%D0%BE",
     name: "Лео",
     birthday: "Лето 26",
     gifts: ["/images/characters/gifts/feather.png"],
@@ -267,6 +299,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/dwarf-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%94%D0%B2%D0%B0%D1%80%D1%84",
     name: "Дварф",
     birthday: "Лето 22",
     gifts: [
@@ -277,6 +310,7 @@ const dataBoys = [
   {
     id: generateUniqueId(),
     img: "/images/characters/krobus-img.png",
+    url: "https://ru.stardewvalleywiki.com/%D0%9A%D1%80%D0%BE%D0%B1%D1%83%D1%81",
     name: "Кробус",
     birthday: "Зима 1",
     gifts: ["/images/characters/gifts/diamond.png"],

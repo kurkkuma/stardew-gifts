@@ -4,6 +4,7 @@ import Image from "next/image";
 type ItemType = {
   id: string;
   img: string;
+  url: string;
   name: string;
   birthday: string;
   gifts: string[];
@@ -16,10 +17,12 @@ type Props = {
 
 function Item({ item, index }: Props) {
   return (
-    <div
+    <a
+      target="_blank"
+      href={item.url}
       className={`mb-2 p-1 flex gap-4 text-xs ${
         index % 2 === 0 ? "bg-blue-300/30" : "bg-violet-300/30"
-      } rounded-sm `}
+      } rounded-sm hover:bg-purple-500/60  transition-all`}
     >
       <div>
         <Image
@@ -50,7 +53,7 @@ function Item({ item, index }: Props) {
           );
         })}
       </div>
-    </div>
+    </a>
   );
 }
 
